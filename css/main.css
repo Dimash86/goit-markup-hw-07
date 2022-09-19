@@ -325,9 +325,10 @@ body {
   align-items: center;
 }
 
-.current {
+.menu__item > .current {
   color: var(--nav-button-color);
 }
+
 .current::after {
   content: "";
   display: block;
@@ -768,7 +769,7 @@ body {
   border-color: transparent;
   border-radius: 4px;
   padding: 6px 22px;
-  transition: background-color var(--transition-primary);
+  transition: background-color var(--transition-primary), color var(--transition-primary), box-shadow var(--transition-primary);
 }
 .portfolio-button:hover, .portfolio-button:active, .portfolio-button:focus {
   background-color: #2196F3;

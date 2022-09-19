@@ -13,10 +13,11 @@
     align-items: center;
 }
 
-.current {
+.menu__item > .current {
     color: var(--nav-button-color);
+}
 
-&::after {
+.current::after {
     content: "";
     display: block;
     width: 100%;
@@ -26,7 +27,7 @@
     bottom: -1px;
     background-color: var(--nav-button-color);
 }
-}
+
 
 .menu__item {
     position: relative;
@@ -70,7 +71,7 @@
 
 &:hover::after,
 &:focus::after {
-    background-color: var(--nav-button-color)
+    background-color: var(--nav-button-color);
 }    
 }
 

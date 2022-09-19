@@ -15,7 +15,7 @@
     border-color: transparent;
     border-radius: 4px;
     padding: 6px 22px;
-    transition: background-color var(--transition-primary);
+    transition: background-color var(--transition-primary), color var(--transition-primary), box-shadow var(--transition-primary);
 
 &:hover,
 &:active,
